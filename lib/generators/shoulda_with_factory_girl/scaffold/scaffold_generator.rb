@@ -1,10 +1,10 @@
-require "rails/generators/resource_helpers"
+require 'rails/generators/resource_helpers'
 require 'generators/shoulda_with_factory_girl'
 
 module ShouldaWithFactoryGirl
   module Generators
     class ScaffoldGenerator < Base
-      include ResourceHelpers
+      include Rails::Generators::ResourceHelpers
 
       class_option :dir, :type => :string, :default => "test/functional", :desc => "The directory where the controller tests should go"
 
