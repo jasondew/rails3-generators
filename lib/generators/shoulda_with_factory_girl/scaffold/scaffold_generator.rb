@@ -1,3 +1,4 @@
+require "rails/generators/resource_helpers"
 require 'generators/shoulda_with_factory_girl'
 
 module ShouldaWithFactoryGirl
