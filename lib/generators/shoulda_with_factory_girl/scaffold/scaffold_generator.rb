@@ -7,7 +7,7 @@ module ShouldaWithFactoryGirl
 
       include Rails::Generators::ResourceHelpers
 
-      class_option :singleton, :type => :boolean, :desc => "Supply to create a singleton controller"
+      class_option :dir, :type => :string, :default => "test/functional", :desc => "The directory where the controller tests should go"
       check_class_collision :suffix => "ControllerTest"
 
       def create_test_files
