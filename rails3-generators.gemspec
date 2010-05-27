@@ -83,7 +83,6 @@ Gem::Specification.new do |s|
      "lib/generators/shoulda_with_factory_girl/controller/controller_generator.rb",
      "lib/generators/shoulda_with_factory_girl/controller/templates/controller.rb",
      "lib/generators/shoulda_with_factory_girl/model/model_generator.rb",
-     "lib/generators/shoulda_with_factory_girl/scaffold/templates/model.rb",
      "lib/generators/shoulda_with_factory_girl/scaffold/scaffold_generator.rb",
      "lib/generators/shoulda_with_factory_girl/scaffold/templates/controller.rb",
      "lib/generators/simple_form_erb.rb",
